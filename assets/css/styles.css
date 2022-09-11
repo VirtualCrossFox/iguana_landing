@@ -1,0 +1,99 @@
+
+/* Reseteo de parametros */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+   
+}
+
+/* seteo general de parametros y fuentes */
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* formateo de titulo */
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+
+}
+
+/* imagen principal  */
+.iguana_grande{
+    width: 90%;
+}
+
+
+/* formateo de seccion central */
+section div{
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    padding: 2rem;
+
+
+}
+
+/* formateo de parrafo */
+.parrafo{
+    width: 25%;
+     
+}
+
+
+/* formateo de seccion iconos */
+.iconos{
+    
+    background-color: #1E1A13;
+    padding: 2rem;
+        }
+
+
+/* formateo de iconos de la seccion */
+.iconos div{
+    display: inline-block;
+    width: 10%;
+    padding: 3%;
+    text-align: center;
+
+
+}
+
+
+/* formateo de subtitulo de los iconos */
+.iconos h3{
+
+    padding-top: 1rem;
+
+}
+
+
+/* formateo de imagenes inferiores */
+.imagenes img {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    height: 10rem;
+    padding: 0.3rem;
+}
+
+/* formateo del footer de la landing */
+footer{
+    
+
+    text-align: center;
+    line-height: 3rem;
+    background-color: #1E1A13;
+}
+
+/* limpieza del link del footer */
+a {
+    text-decoration: none;
+    color: white;
+}
